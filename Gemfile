@@ -18,6 +18,8 @@ gem 'rake'
 
 gem 'bcrypt-ruby'
 
+gem 'rack-flash3'
+
 gem 'shotgun'
 
 group :test do
