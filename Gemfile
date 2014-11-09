@@ -16,6 +16,8 @@ gem 'activerecord', '~>4.1'
 
 gem 'rake'
 
+gem 'bcrypt-ruby'
+
 gem 'shotgun'
 
 group :test do
