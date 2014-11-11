@@ -29,7 +29,7 @@ post '/users' do
 end
 
 post '/sessions' do
-  user = User.find_by(:email => params[:email])
+  user = User.where(:email => params[:email]).first
   if user.nil?
     #incorrect email
     erb :index
